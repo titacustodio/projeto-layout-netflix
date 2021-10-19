@@ -1,0 +1,166 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preto);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+        
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+    margin-right: 40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    
+}
+
+
+header nav a:hover{
+    color:rgb(206, 206, 206);
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:22px;
+    background: linear-gradient(to right, rgb(0, 0, 0),rgba(0, 0, 0, 0)100%),  url('/img/maxresdefault.jpg');
+    height:600px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao1{
+    background-color: #fff;
+    border:none;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1 a{
+    text-decoration:none;
+}
+
+.botao1:hover{
+    background-color:rgb(182, 178, 178);
+    color:black;
+}
+
+.botao2{
+    background-color: rgba(121, 121, 121, 0.6);
+    border:none;
+    color: white;
+    font-weight: 700;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 16px;
+    text-decoration:none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao2:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 60px;
+    
+}
+
+.filme-principal .container{
+    width: 70%;   
+     
+}
+
+.box-filme{   
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;   
+    
+}
+
+.slider .wraper .itens{
+    margin-top: 10px;      
+}
+
+.carrosel-filmes .titulo{
+    margin-top:50px;
+    font-size: 26px;
+    margin-left: 60px;      
+}
+
+.main-carousel{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.carousel-cell {
+    margin-right: 10px;    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
