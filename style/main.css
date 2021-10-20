@@ -24,7 +24,7 @@ header .container{
 
 header .logo{
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial Black';
     font-size:40px;
     margin-right: 40px;
 }
